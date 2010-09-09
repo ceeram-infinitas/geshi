@@ -29,4 +29,8 @@
 				);
 			}
 		}
+
+		public function onSetupConfig(){
+			//return Configure::load('geshi.geshi');
+		}
 	}
